@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #90E0EF;
+}
+
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10.5vh;
+    padding: 17px;
+    background-color: white;
+}
+
+    .cabeçalho-imagem {
+        display: flex;
+        order: 2;
+        height: 60px;
+        justify-content: center;
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 2px;
+    }
+
+        .cabeçalho-ícone {
+            display: flex;
+            order: 3;
+            width: 35%;
+            justify-content: end;
+        }
+
+            .cabeçalho-lupa {
+                height: 30px;
+                padding: 3px;
+                margin: 18px 3px;
+                cursor: pointer;
+            }
+
+            .cabeçalho-perfil {
+                height: 30px;
+                padding: 4px;
+                margin: 18px 10px;
+                cursor: pointer;
+            }
+
+            .cabeçalho-carrinho {
+                height: 30px;
+                margin: 18px 3.5px;
+                cursor: pointer;
+            }
+
+.cabeçalho-menu {
+    display: flex;
+    order: 1;
+    gap: 18px;
+    padding: 5px;
+    font-size: 15px;
+    width: 35%;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+.cabeçalho-menu-item:hover {
+    color: #FA8C16;
+}
+
+
+    .conteúdo {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #90E0EF;
+        height: 495px;
+        margin-top: 17px;
+    }
+
+        .banner {
+            height: 495px;
+            width: 950px;
+        }
+
+            .conteúdo-ofertas {
+                display: inline-block;
+                position: relative;
+                height: 495px;
+                width: 395px;
+                text-align: end;
+            }
+
+                .oferta {
+                    height: 495px;
+                    width: 385px;
+                    margin: 0%;
+                    padding: 0%;
+                }
+
+
+.comece {
+    position: absolute;
+    top: 292px;
+    right: 129.23px;
+    font-size: 15px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.limpeza {
+    position: absolute;
+    top: 325px;
+    right: 245.6px;
+    font-size: 15px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .limpeza:hover {
+        border: 1px solid rgb(158, 184, 179);
+        background-color: #90e1ef;
+        color: white;
+        box-shadow: 5px 5px rgba(106, 160, 149, 0.486);
+        font-weight: bold;
+    }
+
+
+.tratamento {
+    position: absolute;
+    top: 325px;
+    right: 38.03px;
+    font-size: 15px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+    .tratamento:hover {
+        border: 1px solid rgb(158, 184, 179);
+        background-color: #90e1ef;
+        color: white;
+        box-shadow: 5px 5px rgba(106, 160, 149, 0.486);
+        font-weight: bold;
+    }
+
+
+.hidratação {
+    position: absolute;
+    top: 387px;
+    right: 237.47px;
+    font-size: 15px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+    .hidratação:hover{
+    border: 1px solid rgb(158, 184, 179);
+        background-color: #90e1ef;
+        color: white;
+        box-shadow: 5px 5px rgba(106, 160, 149, 0.486);
+        font-weight: bold;
+    }
+
+
+.protetor {
+    position: absolute;
+    top: 387px;
+    right: 31.23px;
+    font-size: 15px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .protetor:hover{
+    border: 1px solid rgb(158, 184, 179);
+        background-color: #90e1ef;
+        color: white;
+        box-shadow: 5px 5px rgba(106, 160, 149, 0.486);
+        font-weight: bold;
+    }
+
+
+.kits {
+    position: absolute;
+    top: 437px;
+    right: 163.91px;
+    font-size: 15px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+    .kits:hover{
+        border: 1px solid rgb(158, 184, 179);
+        background-color: #90e1ef;
+        color: white;
+        box-shadow: 5px 5px rgba(106, 160, 149, 0.486);
+        font-weight: bold;
+    }
+
+
+.conteúdo-2 {
+    margin-top: 45px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.destaque-palavra {
+    display: block;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.destaque-produtos { 
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+        }
+
+                    .destaque-div {
+                        text-align: start;
+                        font-family: "Raleway", sans-serif;
+                        flex-wrap: wrap;
+                        width: 235px;
+                        font-size: 16px;
+                    }
+
+                            .destaque-img {
+                                height: 250px;
+                                width: 235px;
+                            }
+
+                                .destaque-preçoriscado {
+                                    text-decoration: line-through;
+                                    color: rgb(53, 51, 51);
+                                    font-size: 14px;
+                                }
+                                    .destaque-preçoparcelado{
+                                    font-size: 14px;   
+                                    color: rgb(53, 51, 51);
+                                    }
+                                        .destaque-preço {
+                                            font-weight: bold;
+                                        }
+                                            .destaque-div-botão{
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                justify-content: space-between;
+                                                margin-top: 4px;
+                                                height: 38px;
+                                                font-family: "Raleway", sans-serif;
+                                            }
+                                                .destaque-botao{
+                                                    width: 140px;
+                                                    font-size: 16px;
+                                                    font-weight: bold;
+                                                    border: 1px solid #5FB6D9;
+                                                    border-radius: 5px;
+                                                    background: #0EC3CC;
+                                                    color: white;
+                                                    border: none;
+                                                    position: relative;
+                                                    overflow: hidden;   
+                                                    cursor: pointer
+                                                }
+                                                
+                                                    .label {
+                                                        position: relative;
+                                                        top: -1px;
+                                                    }
+                                                  
+                                                        .transition {
+                                                            transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+                                                            transition-duration: 500ms;
+                                                            background-color: #04668C;
+                                                            border-radius: 9999px;
+                                                            width: 0;
+                                                            height: 0;
+                                                            position: absolute;
+                                                            left: 50%;
+                                                            top: 50%;
+                                                            transform: translate(-50%, -50%);
+                                                        }
+                                                  
+                                                                button:hover .transition {
+                                                                    width: 14em;
+                                                                    height: 14em;
+                                                                }
+                                                    
+                                                                    button:active {
+                                                                        transform: scale(0.97);
+                                                                    }
+                                    
+
+                                        .destaque-saibamais {
+                                        width: 90px;
+                                        font-size: 14px;
+                                        background-color: white;                                   
+                                        color: #FA8C16;    
+                                        border: 2.5px solid #FA8C16;    
+                                        border-radius: 5px;    
+                                        cursor: pointer;
+                                    }
+                                            .destaque-saibamais:hover{
+                                                background-color: #ff8f18f1;
+                                                color: white;
+                                            }
+
+
+.tiposdepele-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px;
+    background-color: #0AA6A6;
+    margin-top: 20px;
+}
+
+    .tiposdepele-titulo {
+        background-color: white;
+        width: 465px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 70px;
+        font-weight: 500;
+        color: #FA8C16;
+        border: 2px solid #FA8C16;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+        .frase-tiposdepele{
+            font-size: 16px;
+            font-family: "Raleway", sans-serif;
+            align-self: flex-end;
+            padding: 20px;
+            color: #034242;
+            text-align: center;
+        }
+
+            .tiposdepele-banner {
+                width: 683px;
+                height: 350px;
+                transition: 0.5s;
+            }
+
+                .tiposdepele-banner:hover {
+                    transform: scale(1.07);
+                }
+
+
+
+    .etapas-div {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding-bottom: 71px;
+    border-bottom: #90E0EF solid 3px
+    }
+
+    .título-etapas {
+        display: block;
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        font-size: 39px;
+        padding: 16px;
+        background-color: #90E0EF;
+        margin-top: -20px;
+        font-weight: 400;
+        color: #034242;
+    }
+
+
+    .etapa{
+        padding: 4px;
+        text-align: center;
+
+    }
+
+        .etapa:hover{
+            transform: scale(1.03);
+            transition: 0.5s;
+        }
+
+        .etapaimg {
+            width: 325px;
+            height: 190px;
+        }
+
+
+        .textlimpeza {
+            display: flex; 
+            opacity: 0; /* Define a opacidade inicial como 0 */
+            transition: opacity 0.5s ease-in-out; /* Transição suave da opacidade */
+            font-family: "Raleway", sans-serif;
+            background-color: #f89326;
+            width: 250px;
+            padding: 14px;
+            border: #034242 1px solid;
+            border-radius: 13px;
+            box-shadow: 5px 5px rgba(39, 71, 65, 0.24);
+            text-align: center;
+            font-weight: 600;
+            margin-left: 37.5px;
+            color: #034242;
+            margin-top: -44px ;
+            position: absolute;
+            z-index: 1;
+        }
+        
+                .etapa:hover .textlimpeza {
+                    display: block; /* Mostra o texto ao passar o mouse */
+                    opacity: 1;
+                }
+
+
+        
+        .texttratamento {
+            display: flex; 
+            opacity: 0; /* Define a opacidade inicial como 0 */
+            transition: opacity 0.5s ease-in-out; /* Transição suave da opacidade */
+            font-family: "Raleway", sans-serif;
+            background-color: #f89326;
+            width: 250px;
+            padding: 13px;
+            border: #034242 1px solid;
+            border-radius: 13px;
+            box-shadow: 5px 5px rgba(39, 71, 65, 0.24);
+            text-align: center;
+            font-weight: 600;
+            margin-left: 37.5px;
+            color: #034242;
+            margin-top: -44px ;
+            position: absolute;
+            z-index: 1;
+        }
+
+            .etapa:hover .texttratamento {
+                display: block; /* Mostra o texto ao passar o mouse */
+                opacity: 1;
+            }
+
+
+        .texthidra {
+            display: flex; 
+            opacity: 0; /* Define a opacidade inicial como 0 */
+            transition: opacity 0.5s ease-in-out; /* Transição suave da opacidade */
+            font-family: "Raleway", sans-serif;
+            background-color: #f89326;
+            width: 250px;
+            padding: 13px;
+            border: #034242 1px solid;
+            border-radius: 13px;
+            box-shadow: 5px 5px rgba(39, 71, 65, 0.24);
+            text-align: center;
+            font-weight: 600;
+            margin-left: 37.5px;
+            color: #034242;
+            margin-top: -44px ;
+            position: absolute;
+            z-index: 1;
+        }
+            .etapa:hover .texthidra {
+                display: block; /* Mostra o texto ao passar o mouse */
+                opacity: 1;
+            }
+
+        
+        .textproteção {
+            display: flex; 
+            opacity: 0; /* Define a opacidade inicial como 0 */
+            transition: opacity 0.5s ease-in-out; /* Transição suave da opacidade */
+            font-family: "Raleway", sans-serif;
+            background-color: #f89326;
+            width: 250px;
+            padding: 13px;
+            border: #034242 1px solid;
+            border-radius: 13px;
+            box-shadow: 5px 5px rgba(39, 71, 65, 0.24);
+            text-align: center;
+            font-weight: 600;
+            margin-left: 37.5px;
+            color: #034242; 
+            margin-top: -44px ;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .etapa:hover .textproteção {
+            display: block; 
+            opacity: 1;
+        }
+
+.escolha{
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+
+.carregar {
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    border: #0EC3CC solid 0.4px;
+    border-radius: 20px;
+    width: 182px;
+    padding: 12px;
+    margin-top: 15px;
+    margin-left: 583.5px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.carregar:hover {
+    background-color: #0ec3cc9f;
+    cursor: pointer;
+}
+
+
+
+
+.kits-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.kits-banner-img {
+    width: 335px;
+    height: 190px;
+}
+
+.título-kits {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 20px 70px;
+    color: #034242;
+    border: #041E40 solid 0.4px;
+    }
+
+        .Títulovegan{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-top: #FA8C16 solid 10px;
+            padding-top: 25px;
+        }
+
+        .títulovegan-img{
+            width: 375px;
+            height: 96px;
+        }
+
+.divfinal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #90e1ef;
+}
+
+.final1 {
+    margin-top: 45px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.final2 {
+    margin-top: 45px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.segurançaimg {
+    width: 300px;
+    height: 50px;
+}
